@@ -19,7 +19,7 @@ body{
 }
 /*-------------------------Header--------------------------------------------------*/
 header{
-    background-image: url(Imagenes/pheader.jpg);
+    background-image: url(./Imagenes/pheader.jpg);
 }
 .header{
     position: relative;
