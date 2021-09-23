@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta author="Jose Villalobos Pérez">
+    <meta classification="Productos agrícolas">
+    <meta description="Página de promociones en compras en Agrícola Ureña">
+    <meta keywords="Ureña, Agrícola, Abono, Abonos, Plantas, Planta">
+    <meta generator="Visual Studio Code"> 
+    <title>Comentarios</title>
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/12ef39cfae.js" crossorigin="anonymous"></script>
+    <script src="JS/Carrusel.js" defer></script>
+</head>
+<body>
+        <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0" nonce="rvijOX4Q"></script>
+    <header>
+        <div class="header">
+                <div class="header__intro">
+                        <div class="logo">
+                                <img src="Imagenes/logo 2.1.png" alt="Logo de agrícola ureña" class="header__img">
+                        </div>
+                        <h1 class="header__h1">Bienvenido a Agrícola Ureña</h1>
+                </div>
+    </header>
+    <div class="menu">
+        <input type="checkbox" class="header__button" id="btn-menu">
+        <label for="btn-menu" class="header__label"><img src="/Imagenes/icon-burger.png" alt=""></label>
+        <nav class="burger">
+            <ul>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="Paginas/Productos.html">Productos</a></li>
+                <li><a href="Contactenos.html">Contáctenos</a></li>
+                <li><a href="">Comentarios</a></li>
+                <li><a href="Nosotros.html">Nosotros</a></li>
+            </ul>
+        </nav>
+</div>
+    <div class="container">
+    <main>
+                <div>
+                        <h2 class="container__h2">Comentarios y sugerencias:</h2>
+                </div>
+        
+                <div class="div__comentarios"> 
+                        <div class="fb-comments" data-href="http://127.0.0.1:5501/index.html" data-width="100%" data-numposts="10"></div>
+                </div>
+
+                <div class="mobile">
+                        
+                </div>
+
+                
+                
+                <div class="container-slider">
+                        <div class="slider" id="slider">
+                                <div class="slider__section">
+                                        <img src="Imagenes/Carrusel/Carrusel1.jpeg" alt="" class="slider__img">
+                                </div>
+                                <div class="slider__section">
+                                        <img src="Imagenes/Carrusel/Carrusel2.jpeg" alt="" class="slider__img">
+                                </div>
+                                <div class="slider__section">
+                                        <img src="Imagenes/Carrusel/Carrusel3.jpeg" alt="" class="slider__img">
+                                </div>
+                                <div class="slider__section">
+                                        <img src="Imagenes/Carrusel/Carrusel4.jpeg" alt="" class="slider__img">
+                                </div>
+                        </div>
+                        <div class="slider__btn slider__btn--right" id="btn-right">&#62;</div>
+                        <div class="slider__btn slider__btn--left" id="btn-left">&#60;</div>
+                </div>
+            
+    </main>
+            <aside class="p2">
+                <div class="aside">
+                        <div class="contactenos">
+                                <p class="contact__text">Contáctenos</p>
+                        </div>
+                        <div class="contactenos__img">
+                                <a href="tel: 83102739"><img src="Imagenes/telefono blanco.png" alt="Imagen de telefono" class="aside__con"></a>
+                        </div>
+                        <div class="contactenos__img">
+                                <a href="https://www.facebook.com/fincaintegraleducativaurena" target="_blank"><img src="Imagenes/face blanco.png" alt="Logo de facebook" class="aside__con"></a>
+                        </div>
+                        <div class="contactenos__img">
+                                <a href="https://www.instagram.com/organica_urena/?hl=es" target="_blank"><img src="Imagenes/insta blanco.png" alt="Logo de intagram" class="aside__con"></a>
+                        </div>
+                </div>
+            </aside>
+        </div>
+        </div>
+    <footer>
+        <div class="footer footer--mt">
+                <div class="footer__info">
+                        <div class="footer__logo">
+                                <img class="logoFooter desktop" src="Imagenes/logoFooter.PNG" alt="">
+                        </div>
+                        <div class="footer__text">
+                                <p class="footer__p">Derechos reservados a Agricola Ureña 2021 ©</p>
+                        </div>
+                        <div class="footer__social">
+                                <div class="social__tittle">
+                                        <p class="contact__text">Contáctenos</p>
+                                </div>
+                                <div class="social">
+                                        <a href="tel: 83102739" ><a href="tel: 83102739" ><div class="contact__img"><i class="fas fa-phone-square"></i></div></a></a>
+                                        <a href="https://www.facebook.com/fincaintegraleducativaurena" target="_blank"><div class="contact__img"><i class="fab fa-facebook-square"></i></div></a>
+                                        <a href="https://www.instagram.com/organica_urena/?hl=es" target="_blank"><div class="contact__img"><i class="fab fa-instagram"></i></div></a>
+                                        <a href="https://www.google.com/maps/place/Org%C3%A1nica+Ure%C3%B1a/@10.1102375,-84.5127433,15z/data=!4m2!3m1!1s0x0:0x11ba562cbe448df5?sa=X&ved=2ahUKEwie4PKUkdLyAhUwSjABHd8PCjEQ_BIwCnoECEMQBQ" target="_blank"><div class="contact__img"><i class="fas fa-map-marker-alt"></i></div></a>
+                                </div>
+                    </div>
+                </div>
+                
+        </div>
+    </footer>
+    
+</body>
+</html>
